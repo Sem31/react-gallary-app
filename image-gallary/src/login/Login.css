@@ -1,0 +1,15 @@
+.bigblue {
+    color: black;
+    padding-left: 550px;
+    font-family: Arial;
+    text-align: center;
+  }
+
+.MuiSvgIcon-root{
+  color: blue;
+  margin-top: 10px;
+}
+.icon{
+  color: black;
+  margin-top: 10px;
+}
