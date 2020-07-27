@@ -1,7 +1,13 @@
 .App {
   text-align: center;
+  /* padding-top: 100px; */
+  /* padding:100px; */
+  /* margin: 500px; */
 }
-
+body{
+  background-color: black;
+  background-size: cover;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

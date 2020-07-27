@@ -36,15 +36,16 @@ class Login extends Component {
     render() {
         return (
         <div>
-            <div>
+            <div className="login-form">
                 <h1 style={{color:'blue'}}>Login</h1>
                 <form noValidate autoComplete="off">
-                    <label className="MuiSvgIcon-root"><PersonSharpIcon /></label>
+                    <label ><PersonSharpIcon className="MuiSvgIcon-root1"/></label>
                     <TextField id="email" type="email" onChange={(event)=>{this.setState({email:event.target.value})}} label="Email" />
                     <br /><br />
-                    <label className="MuiSvgIcon-root"><LockIcon />
+                    <label ><LockIcon  className="MuiSvgIcon-root1" />
                     </label><TextField id="password" type="password" onChange={(event)=>{this.setState({password:event.target.value})}} label="Password" />
                     <br /><br />
+                    <br />
                     <Button variant="contained" color="primary" onClick={()=>{this.login()}}>Login</Button>
                 </form>
             </div>

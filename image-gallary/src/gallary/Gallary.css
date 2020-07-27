@@ -1,0 +1,35 @@
+.gridList{
+    display: 'flex';
+    overflow: 'hidden';
+    width: 500;
+    height: 400;
+  }
+.title{
+    background-color:slateblue;
+    padding:30px;
+}
+.MuiSvgIcon-root2{
+    margin-top: 0px;
+    color: white;
+    color:blue;
+}
+.MuiSvgIcon{
+    margin-top: 0px;
+    color:blue;
+}
+.MuiAppBar-root{
+    padding: 4px;
+}
+.MuiIconButton-edgeStart{
+    margin-left: -19px;
+}
+.MuiTypography-h6{
+    padding-left: 3px;
+}
+
+.MuiListItemText-root{
+    margin-left: -18px;
+}
+.MuiDrawer-paper{
+    width: 180px;
+}
